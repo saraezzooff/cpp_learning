@@ -1,1 +1,49 @@
+  //very basic loop
+  
+  for(int i=0; i<5; i++){
+  	cout<<"hello"<<endl;
+  }
+  
+  //another solution 
+  for(int i=1; i<=5; i++){
+  	cout<<"hello"<<endl;
+  }
 
+  //WAP to display the letters from A to Z
+  char ltr;
+  for(int i=65 ; i<=90 ; i++){
+  	//cout<<i<<endl;
+  	ltr = i;
+  	cout<<ltr<<endl;
+  }
+  
+  
+  //WAP to display the letters from a to z
+  char ltr;
+  for(int i=97 ; i<=122 ; i++){
+  	//cout<<i<<endl;
+  	ltr = i;
+  	cout<<ltr<<endl;
+  }
+
+
+  //WAP to find all number that is divisible by 3 between 100 and 200
+  for(int i=100 ; i<=200 ; i++){
+  	if(i%3==0){
+  		cout<<i<<endl;
+	  }
+  }
+
+  //WAP that print from 1 to 9 separated by commas 
+  //note: last number not followed by comma
+  
+  for(int i=1 ; i<=9 ; i++){
+    	if(i==9){
+    		cout<<i;
+		}
+		else{
+			cout<<i<<",";	
+		}
+  		
+	  
+  }
